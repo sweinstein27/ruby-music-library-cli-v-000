@@ -17,7 +17,7 @@ class MusicLibraryController
     puts "What would you like to do?"
     input = gets.chomp()
     case input
-    when "list_songs"
+    when "list songs"
       list_songs
     when "list_artists"
       list_artists
